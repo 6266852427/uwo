@@ -1,0 +1,165 @@
+/* First color : #FF7B00 and Second color : #3785EA; */
+.preload{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: #77b3d4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.5s ease;
+	z-index: 9999;
+}
+.sky1, .sky2, .sky3{
+	height: 100px;
+	position: absolute;
+	right: 0%;
+	z-index: -1;	
+}
+.sky1{
+	top: 25%;
+	transform: translate(100%, -25%);
+	animation: sky 3s ease infinite;
+}
+.sky2{
+	top: 50%;
+	transform: translate(100%, -50%);
+	animation: sky 3s ease infinite 2s;
+}
+.sky3{
+	top: 75%;
+	transform: translate(100%, -75%);
+	animation: sky 3s ease infinite 1.5s;
+}
+.airplane{
+	height: 200px;
+	animation: airplane 1s ease infinite alternate;
+}
+.preload h3{
+	position: absolute;
+	top: 75%;
+	transform: translateY(-75%);
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: ;
+}
+
+.preload-finish{
+	opacity: 0;
+	pointer-events: none;
+}
+
+@keyframes airplane{
+	from{
+		transform: translateY(0px);
+		}to{
+			transform: translateY(50px);
+		}
+	}
+
+	@keyframes sky{
+		from{
+			right: 0%;
+			}to{
+				right: 130%;
+			}
+		}
+		.uwo{
+		    margin-left: -200px;
+			text-align: center;
+			/* background-color: #C1F4F9; */
+			margin-top: -2px;
+			height: 50vh;
+		}
+		.uwo .uwo-text{
+			margin-right: 50px;
+			text-transform: uppercase;
+			font-family: oswald;
+			letter-spacing: 4px;
+			font-size: 3em;
+			font-weight: 700;
+			color: #f5f5f5;
+			margin-left: 50px;
+			cursor: pointer;
+			text-shadow: 1px 1px 1px #919191,
+			1px 2px 1px #919191, 
+			1px 3px 1px #919191,
+			1px 4px 1px #919191,
+			1px 5px 1px #919191,
+			1px 6px 1px #919191,
+			1px 7px 1px #919191,
+			1px 8px 1px #919191,
+			1px 9px 1px #919191,
+			1px 10px 1px #919191,
+			1px 18px 6px #919191,
+			1px 22px 10px rgba(16,16,16,0.2),
+			1px 25px 35px rgba(16,16,16,0.2),
+			1px 30px 60px rgba(16,16,16,0.4);
+			transition: 0.8s all;
+		}
+		.uwo-text:hover{
+			text-shadow:1px 0px 6px rgba(16, 16, 16, 0.4),
+			1px 0px 10px rgba(16, 16, 16, 0.4),
+			1px 0px 35px rgba(16, 16, 16, 0.4),
+			1px 0px 60px rgba(16, 16, 16, 0.4);
+		}
+		.uwo-head{
+			margin-top: 20px;
+			width: 80%;
+			align-items: center;
+			text-align: center;
+			float: right;
+		}
+
+		.banner{
+			background: rgba(0, 0,100, 0.4);
+			height: 100vh;
+			overflow: hidden;
+		}
+		.video{
+			position: absolute;
+			right: 0;
+			min-width: 100%;
+			min-height: 100%;
+			max-height:  100vh;
+			max-width: 100%;
+			width: auto;
+			z-index: -1;
+			overflow: hidden;
+		}
+
+		.banner1{
+			background: rgba(0, 0,100, 0.4);
+			height: 100vh;
+		}
+		.video1{
+			right: 0;
+			width: 100%;
+			min-width: 100px;
+			background-size: cover;
+			background-position: center;
+			min-height: 100%;
+			max-height:  100vh;
+			max-width: 100%;
+			z-index: -1;
+			overflow: hidden;
+		}
+
+		.text h1{
+			margin-top: 20%;
+			z-index: 500;
+		}
+		@media screen and (max-width: 768px){
+			.carousel{
+				top: -60px;
+			}
+
+           .uwo{
+           	display: none;
+           }
+           .uwo-text{
+           	display: none;
+           }
+		}
