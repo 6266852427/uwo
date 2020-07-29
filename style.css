@@ -168,3 +168,41 @@
 			margin-top: 20%;
 			z-index: 500;
 		}
+		.btn-learn-more{
+			float: right;
+			margin-right: 5%;
+			width: 140px;
+			height: 40px;
+			margin-top: 10px;
+		}
+		.learn-more{
+         font-family: arial;
+         font-size: 15px;
+		}
+		.content-text{
+			position: absolute;
+			background-color: rgba(55, 133,234, 0.2);
+			color: #fff;
+			padding: 20px; 
+			margin-top: 400px;
+			margin-left: 140px;
+			font-family: arial;
+			font-size: 22px;
+			width: 80%;
+
+		}
+		.first-img{
+			position: absolute;
+            width: 45%;
+            margin-top: -49%;
+            margin-left: 8%;
+            opacity: 0.8;	
+		}
+		.second-img{
+			position: absolute;
+			width: 60%;
+			margin-top: -10%;
+			margin-left: 20%;
+			opacity: 0.8;
+
+		}
