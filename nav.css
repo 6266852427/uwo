@@ -15,7 +15,7 @@ header{
 	background-color: #3785EA;
 	position: relative;
 }
-.overlay1{
+.overlay{
 	width: 100%;
 	height: 100vh;
 	background-color: rgba(0,0,0,0.85);
@@ -246,7 +246,7 @@ nav ul{
 				display: block;
 			}
 
-			.overlay1.open1{
+			.overlay.open1{
 				opacity: 1;
 				transform: scaleX(1);
 			}
