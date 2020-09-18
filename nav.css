@@ -246,10 +246,7 @@ nav ul{
 				display: block;
 			}
 
-			.overlay.open1{
-				opacity: 1;
-				transform: scaleX(1);
-			}
+			
 			.carousel{
 				z-index: -5;
 				top: -60px;
